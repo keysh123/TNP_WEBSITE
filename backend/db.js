@@ -1,6 +1,6 @@
 const mongoose=require('mongoose');
 
-const mongourl="mongodb://127.0.0.1:27017/basichotelbackend"
+const mongourl="mongodb://127.0.0.1:27017/tnpcheck"
 
 mongoose.connect(mongourl,{
     useNewUrlParser : true,
